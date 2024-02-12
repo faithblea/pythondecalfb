@@ -1,11 +1,15 @@
 1. What are 3-5 (or more) commands that you can use on terminal and what do they do? What language is your computer terminal in?
+My Mac is zsh (Z shell). Some commands that I use in the terminal are mv, ssh, cp, ls, and cd. 
 
 2. Do you have pets? What kind?
+I have a lot of pets! Two horses, two dogs, a cat, and a fish! 
 
 3. If you run across an error, what would your first course of action be?
+I would try and read what the error meessage said and adjust accordiningly. 
 
 4. Funniest thing that happened to you in high school.
+One time I ditched class to make some popcorn, accidentally microwaved it for too long and the teacher came out and was really concerned about how it smelled like something was burning, turns out was just me and my popcorn. 
 
 5. What is a python script? (Keep it simple)
-
+It is a file that has Python code that can be run. Hopefully it is produced without error, and the code in the script contains something useful. 
 
