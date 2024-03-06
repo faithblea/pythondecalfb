@@ -57,11 +57,10 @@ for row in numgrid:
 #print the 2d matrix 
 # this code used inspiration from stackoverflow 
 #here is the link that I used: https://stackoverflow.com/questions/57864462/create-a-5-x-5-matrix-using-nested-list-comprehensions 
-numgrid[3]= '?'
-print(numgrid)
-"""three=['?']
-for row in numgrid: 
-    for item in """
+
+for 3 in numgrid: 
+    print('?')
+
 #Part 4 
 def rem(lis1): 
     #defining rem to be a subset of lis1 
