@@ -58,8 +58,13 @@ for row in numgrid:
 # this code used inspiration from stackoverflow 
 #here is the link that I used: https://stackoverflow.com/questions/57864462/create-a-5-x-5-matrix-using-nested-list-comprehensions 
 
-for 3 in numgrid: 
-    print('?')
+
+for t in range(len(numgrid)): 
+    # look at every t in numgrid within the length of the range of numgrid
+    if numgrid[t] == i*3: 
+        # if there is a value in numgrid that is a factor of three in the colums 
+        numgrid.replace[t] = '?'
+        
 
 #Part 4 
 def rem(lis1): 
