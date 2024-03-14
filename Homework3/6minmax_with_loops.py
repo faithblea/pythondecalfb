@@ -17,14 +17,24 @@ print('Min',small)
 list1=[-2, 45, 205, 42, 342, 56] # orignal list
 
 large=list1[0]
+tiny=list1[0] 
+
+list1=[-2, 45, 205, 42, 342, 56] # orignal list
+
+large=list1[0]
 tiny=list1[0]
 #initalizing list 
+<<<<<<< HEAD
 i=0
 while i< len(list1): 
     i=i+1
     print(list1)
 
 """while tiny< -1:
+=======
+
+while tiny< -1:
+>>>>>>> refs/remotes/origin/main
     # went to office hours, tried my best to get the syntax here but ultamtely it would just print the min and max without break 
     # attempted to fix using this website https://www.w3schools.com/python/python_while_loops.asp
     print('Min', tiny)
@@ -32,6 +42,17 @@ while i< len(list1):
     if (tiny==0): 
      break 
     # attempt to only get on loop to print   
+<<<<<<< HEAD
+=======
+
+
+while large>342:
+    print ('Max',large)
+    # if large was greater than the maximum number then print Max 
+    if (large==0): 
+        break
+    #again I was unsucessful with the breaks, I am sorry 
+>>>>>>> refs/remotes/origin/main
 
 
 while large>342:
