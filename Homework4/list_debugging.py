@@ -60,10 +60,13 @@ for row in numgrid:
 
 
 for t in range(len(numgrid)): 
+        for j in range(len(numgrid[t])):
+            numgrid[t][j]='?'
+            print(numgrid)
     # look at every t in numgrid within the length of the range of numgrid
-    if numgrid[t] == i*3: 
+ 
         # if there is a value in numgrid that is a factor of three in the colums 
-        numgrid.replace[t] = '?'
+     
         
 
 #Part 4 
