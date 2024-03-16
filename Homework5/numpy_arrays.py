@@ -4,19 +4,22 @@ import numpy as np
 #Part 1 
 arr = np.array([[1,1,1], [1,2,3], [2,2,2]])
 #intial set up to run array 
-newarr = np.array([])
+
 same = [True, True, True]
+#establishing that they are all equal 
 for t in range(len(arr)): 
     for j in range(len(arr[t])):
+        #nested for loop to examine the elements in the entire array
         prev = arr[t][0]
-        if arr[t][j] != prev:
+        #looking at the first row and all of the columns in that row 
+        if arr[t][j] != prev: 
             same[t] = False
-        
+        # if there is another row outside of this first one ignore it 
 for t in range(len(arr)):
     if same[t]:
         print(arr[t])
-print(arr)
-#print the array
+        #if the row t we are looking at is all equal print it 
+# my CS friend helped me again with this, and helped me better understand the for loops better
 
 
 # Part 2 
