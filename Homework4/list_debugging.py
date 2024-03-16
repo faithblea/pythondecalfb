@@ -61,11 +61,16 @@ for row in numgrid:
 
 for t in range(len(numgrid)): 
         for j in range(len(numgrid[t])):
-            numgrid[t][j]='?'
-            print(numgrid)
+            #check all the numbers in the array 
+            if numgrid[t][j] % 3 == 0:
+                numgrid[t][j]= "?"
+            # if any of these numbers are divisible by 3 put a ? there
+
+print(numgrid)
     # look at every t in numgrid within the length of the range of numgrid
  
         # if there is a value in numgrid that is a factor of three in the colums 
+# my most favoritest CS friend helped me fully understand it :) 
      
         
 

@@ -4,9 +4,18 @@ import numpy as np
 #Part 1 
 arr = np.array([[1,1,1], [1,2,3], [2,2,2]])
 #intial set up to run array 
-newarr= np.unique(arr)
-
-print(newarr)
+newarr = np.array([])
+same = [True, True, True]
+for t in range(len(arr)): 
+    for j in range(len(arr[t])):
+        prev = arr[t][0]
+        if arr[t][j] != prev:
+            same[t] = False
+        
+for t in range(len(arr)):
+    if same[t]:
+        print(arr[t])
+print(arr)
 #print the array
 
 
