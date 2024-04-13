@@ -3,7 +3,7 @@
 
 # In[1]:
 
-
+#Question #1 
 import numpy as np
 import matplotlib.pyplot as plt 
 
@@ -37,7 +37,7 @@ plt.show()
 
 # In[97]:
 
-
+#Question 2
 import seaborn as sns 
 
 
@@ -69,7 +69,7 @@ plt.show
 
 # In[98]:
 
-
+#Question 3
 from numpy import random
 
 
